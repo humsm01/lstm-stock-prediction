@@ -32,9 +32,8 @@ See [`prediction_plot.png`](./prediction_plot.png) for the full output.
 
 ## Model Architecture
 
-```python
-LSTM(64, return_sequences=True)  
-→ LSTM(64)  
-→ Dense(128, activation='relu')  
-→ Dropout(0.5)  
-→ Dense(1)
+- `LSTM(64, return_sequences=True)` 
+- `LSTM(64)`  
+- `Dense(128, activation='relu')`  
+- `Dropout(0.5)`  
+- `Dense(1)`
